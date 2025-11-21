@@ -2,7 +2,6 @@
 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12+-orange.svg)](https://tensorflow.org)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Recycling systems often rely on manual sorting, which is slow, inconsistent, and expensive. 
 This project explores how deep learning can help automate waste classification by training an EfficientNetB0 model to identify six types of garbage.
