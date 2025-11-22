@@ -27,24 +27,6 @@ With over 93% test accuracy, the model shows that even small, efficient neural n
 
 ---
 
-## 🚀 Quick Start
-
-### **1. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-### **2. Dataset Setup**
-Download TrashNet
-- Option 1 : via Kaggle API
-  ```bash
-  import kagglehub
-  path = kagglehub.dataset_download("feyzazkefe/trashnet")
-  print("Path to dataset files:", path)
-- Option 2 : Manually from  [Kaggle TrashNet Dataset](https://www.kaggle.com/datasets/feyzazkefe/trashnet)
-### **3. Run Notebooks**
-- 1_eda_data_augmentation.ipynb — EDA + Augmentation
-- 2_model_training_evaluation.ipynb — Training + Evaluation
----
 ## 🧠 Model Architecture
 - **Backbone:** EfficientNetB0 (ImageNet pretrained)
 
@@ -86,4 +68,22 @@ Download TrashNet
 - Matplotlib / Seaborn
 ---
 
+## 🚀 Quick Start
+
+### **1. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+### **2. Dataset Setup**
+Download TrashNet
+- Option 1 : via Kaggle API
+  ```bash
+  import kagglehub
+  path = kagglehub.dataset_download("feyzazkefe/trashnet")
+  print("Path to dataset files:", path)
+- Option 2 : Manually from  [Kaggle TrashNet Dataset](https://www.kaggle.com/datasets/feyzazkefe/trashnet)
+### **3. Run Notebooks**
+- 1_eda_data_augmentation.ipynb — EDA + Augmentation
+- 2_model_training_evaluation.ipynb — Training + Evaluation
+---
 
