@@ -9,7 +9,7 @@ With over 93% test accuracy, the model shows that even small, efficient neural n
 
 ---
 
-## 📊 Results
+## Results
 
 ### **Overall Metrics**
 - **Test Accuracy:** 93.7%  
@@ -27,7 +27,7 @@ With over 93% test accuracy, the model shows that even small, efficient neural n
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 - **Backbone:** EfficientNetB0 (ImageNet pretrained)
 
 - **Fine-tuning:** Last 20 layers unfrozen
@@ -49,7 +49,7 @@ With over 93% test accuracy, the model shows that even small, efficient neural n
 
 - Class weights for minority classes
 ---
-## 📁 Dataset Info
+## Dataset Info
 - Original images: 2,527
 
 - After augmentation: 3,063
@@ -58,7 +58,7 @@ With over 93% test accuracy, the model shows that even small, efficient neural n
 
 - Image size: 512 × 384
 ---
-## 🛠️ Tech Stack
+## Tech Stack
 - TensorFlow / Keras
 
 - OpenCV
@@ -68,7 +68,7 @@ With over 93% test accuracy, the model shows that even small, efficient neural n
 - Matplotlib / Seaborn
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### **1. Install dependencies**
 ```bash
