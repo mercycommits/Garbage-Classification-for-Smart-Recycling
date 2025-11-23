@@ -38,7 +38,7 @@ With over 93% test accuracy, the model shows that even small, efficient neural n
 
 - **Optimizer:** Adam (learning rate 1e-4)
 ---
-## ⚡ Key Features
+## Key Features
 - Handles class imbalance with strategic augmentation
 
 - Transfer Learning with EfficientNetB0
